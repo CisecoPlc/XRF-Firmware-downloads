@@ -7,10 +7,5 @@ You can download the files for all devices by clicking on the "Zip" link
 Release notes can be found at the OpenMicros site
 http://openmicros.org/index.php/articles/84-xrf-basics/224-firmware-release-notes
 
-
-**** Update - the Raspberry Pi firmware updater has been updated to cope with this, ****
-**** so if you have the latest downloader then you do not need to do this!!         ****
-For Raspberry Pi/ Linux users: the move to git hub has change the line endings so you will need to run (for example)
-awk 'BEGIN {RS="\n";ORS="\r\n"} {print $0}' llapThermistor-V0.56-24MHz.bin > llapThermistor-V0.56-24MHz-ok.bin
-before uploading - otherwise you will get errors when uploading.
+**Each folder may have mutiple version of the same firmware, always use the latest unless asked to use an older version by support.**
 
